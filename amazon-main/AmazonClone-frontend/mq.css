@@ -1,0 +1,188 @@
+@media screen and (max-width: 1350px) {
+  .amazonpay a {
+    visibility: hidden;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .homekitchen a {
+    visibility: hidden;
+  }
+
+  .hidden {
+    display: block;
+  }
+  .hidden-after {
+    display: none;
+  }
+
+  .product-container {
+    width: calc(33.33% - 10px);
+    margin: 5px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  :root {
+    --fs-small: 10px;
+    --fs-medium: 12px;
+    --fs-large: 16px;
+    --fs-xl: 18px;
+
+    --fs-main: 12px;
+  }
+
+  .prime a,
+  .electronics,
+  .newrelease {
+    visibility: hidden;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  :root {
+    --fs-small: 9px;
+    --fs-medium: 9px;
+    --fs-large: 9px;
+    --fs-xl: 9px;
+
+    --top-nav-height: 6vh;
+    --fs-bottom-navbar: 12px;
+    --bottom-navbar-height: 4vh;
+
+    --product-flash-height: 50vh;
+    --fs-main: 10px;
+  }
+
+  .logo {
+    width: calc(40% - 2px);
+  }
+
+  .location {
+    width: 60%;
+  }
+
+  .search-box {
+    width: 50%;
+  }
+
+  .search-box select {
+    width: 12.5%;
+  }
+
+  .search-box input[type="text"] {
+    width: 75%;
+  }
+
+  .search-button {
+    width: 12.5%;
+  }
+
+  .right-side-nav {
+    width: 30%;
+  }
+
+  .customerservice {
+    visibility: hidden;
+  }
+
+  .left-right {
+    font-size: 40px;
+  }
+
+  main {
+    top: 35%;
+  }
+  .back-to-top {
+    padding: 5px 0px;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  :root {
+    --fw-bold: 600;
+    --fs-main: 7px;
+  }
+
+  .notice,
+  .row-container-box {
+    padding: 10px 0px;
+    margin: 15px;
+
+    font-size: var(--fs-main);
+  }
+
+  .product-list {
+    padding: 0px 10px;
+  }
+}
+
+@media screen and (max-width: 452px) {
+  :root {
+    --fs-small: 4px;
+    --fs-medium: 6px;
+    --fs-large: 6px;
+    --fs-xl: 6px;
+
+    --fs-bottom-navbar: 9px;
+
+    --product-flash-height: 30vh;
+    --fs-main: 6px;
+  }
+
+  .left-right {
+    font-size: 20px;
+  }
+
+  .notice {
+    padding: 10px 0px;
+    margin-inline: 12px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: var(--fs-main);
+  }
+
+  main {
+    top: 25%;
+  }
+}
+
+@media screen and (max-width: 351px) {
+  :root {
+    --fs-small: 4px;
+    --fs-medium: 6px;
+    --fs-large: 6px;
+    --fs-xl: 6px;
+
+    --fs-main: 6px;
+  }
+
+  .mobile {
+    visibility: hidden;
+    display: none;
+  }
+  .notice {
+    padding-inline: 5px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  .left-side-nav {
+    width: 25%;
+  }
+  .logo {
+    width: calc(50% - 2px);
+  }
+
+  .location {
+    width: 50%;
+  }
+
+  .search-box {
+    width: 40%;
+  }
+  .right-side-nav {
+    width: 35%;
+  }
+}
